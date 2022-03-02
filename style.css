@@ -3,8 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: calibri;
-    color: white;
-    user-select: none;
+    color: rgb(255, 255, 255);
 }
 
 body{
@@ -21,30 +20,27 @@ body{
 }
 
 header{
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    user-select: text;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 hr{
-    border: 1px solid gray;
+    border: none;
+    background-color: rgb(124, 124, 124);
+    height: 3px;
 }
 
 ul a{
     display: block;
     text-decoration: none;
     font-size: 26px;
-    padding-left: 30px;
+    padding-left: 32px;
     padding-top: 12px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(128, 128, 128);
     padding-bottom: 12px;
     transition-duration: 0.4s;
-}
-
-ul li{
-    margin-right: 8px;
 }
 
 ul a:hover{
@@ -55,11 +51,18 @@ ul a:active{
     background-color: rgb(80, 72, 72);
 }
 
-h1,p{
+h1{
+    font-size: 36px;
     position: absolute;
     top: 22px;
-    left: 275px;
-    user-select: text;
+    left: 265px;
+}
+
+p{
+    font-size: 22px;
+    position: absolute;
+    top: 1px;
+    left: 265px;
 }
 
 p{
@@ -75,9 +78,9 @@ p a{
 }
 
 p a:hover{
-    background-color: yellow;
+    color: rgb(255, 255, 0);
 }
 
 ul a:hover{
-    padding-left: 4px;
+    padding-left: 46px;
 }
